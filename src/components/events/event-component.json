@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_events_event_components",
+  "info": {
+    "displayName": "Event Component",
+    "icon": "calendar-times"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    }
+  }
+}

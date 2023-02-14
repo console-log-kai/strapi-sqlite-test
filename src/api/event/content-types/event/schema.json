@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "ShortDescription": {
+      "type": "text"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "string"
+    },
+    "PresenterName": {
+      "type": "string"
+    },
+    "PresenterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LongDescription": {
+      "type": "richtext"
+    },
+    "EventDateTime": {
+      "type": "datetime"
+    },
+    "isEnabled": {
+      "type": "boolean"
+    },
+    "MarketoFormID": {
+      "type": "string",
+      "default": "1326",
+      "required": true
+    }
+  }
+}
