@@ -63,6 +63,10 @@
       "type": "string",
       "default": "1326",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
     }
   }
 }
