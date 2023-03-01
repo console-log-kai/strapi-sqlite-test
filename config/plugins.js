@@ -7,10 +7,10 @@ module.exports = {
         {
           uid: 'api::event.event',
           draft: {
-            url: 'http://localhost:3000/api/preview',
+            url: 'https://next-strapi-draft-previews-poc.vercel.app/api/preview',
             query: {
               type: 'event',
-              slug: '{slug}',
+              id: '{id}',
             },
           },
           published: {
